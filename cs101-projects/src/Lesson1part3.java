@@ -5,27 +5,28 @@ public class Lesson1part3 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your Age = ");
-        int age =  sc.nextInt();
+        int age = sc.nextInt();
 
-        if (age>=18) {
+        if (age >= 18) {
             System.out.println("Adult");
         } else {
-                        System.out.println("Minor");
-            }
+            System.out.println("Minor");
+        }
         Scanner dk = new Scanner(System.in);
         System.out.print("Enter your marks = ");
         int marks = dk.nextInt();
 
-        if (marks>=90){
+        if (marks >= 90) {
             System.out.println("your Grade is A");
-        } else if (marks>=80){
+        } else if (marks >= 80) {
             System.out.println("your Grade is B");
-        } else if (marks>=70){
+        } else if (marks >= 70) {
             System.out.println("your Grade is C");
-        } else if (marks>=60){
+        } else if (marks >= 60) {
             System.out.println("your Grade is D");
-        }
-
+        } else {
+            System.out.println("Fail");
         }
     }
+}
 
